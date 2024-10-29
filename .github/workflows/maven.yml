@@ -34,7 +34,7 @@ jobs:
            ssh -o StrictHostKeyChecking=no -i "private_key" ubuntu@ec2-52-1-74-90.compute-1.amazonaws.com "
                      cd /home/ubuntu/springEasy-Render &&
                      git pull 
-                     mvn clean package -DskipTests &&
+                     mvn clean packages -DskipTests &&
                      ./executar.sh "
 
                      
