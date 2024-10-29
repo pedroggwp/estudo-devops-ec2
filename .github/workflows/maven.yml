@@ -36,6 +36,5 @@ jobs:
                      git pull 
                      mvn clean package -DskipTests &&
                      ./executar.sh "
-
                      
                      
